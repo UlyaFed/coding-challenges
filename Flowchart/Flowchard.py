@@ -15,3 +15,9 @@ elif die1 == die2 or die2 == die3 or die1 == die3:
 else:
     print("Better luck next time!")
     
+if die1 % 2 == 0 and die2 % 2 == 0 and die3 % 2 == 0:
+    print("You have three even numbers!") 
+elif die1 % 2 != 0 and die2 % 2 != 0 and die3 % 2 != 0:
+    print("You have three odd numbers!")
+else:
+    print("Unfortunately, you don't have 3 even or odd numbers")
