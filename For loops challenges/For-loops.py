@@ -32,4 +32,16 @@ while ord(letter) <= 90:
     print(letter)
     letter = chr(ord(letter)+ 1)
 
+# 6th task. Ask for a positive integer value and calculate the iterative sum for this given number.
 
+num = int(input("Enter a positive integer: "))
+
+if num <= 0:
+    print("Please enter a positive integer")
+else:
+    sum = 0
+    
+    for i in range(1, num + 1):
+        sum += i
+        
+print(f"Iterative Sum for {num} is {sum}")

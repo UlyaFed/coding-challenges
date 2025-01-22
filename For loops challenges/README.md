@@ -13,3 +13,11 @@
 ### 4th task.
 
 - The program starts by asking for a number. It will then display the times table for this given number.
+
+### 5th task.
+
+- Recite the 26 letters of the Alphabet from A to Z.
+
+### 6th task.
+
+- Ask for a positive integer value and calculate the iterative sum for this given number.
