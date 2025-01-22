@@ -25,3 +25,11 @@ num = int(input("Enter a number: "))
 
 for i in range(1,11):
     print(f"{num} * {i} = {num * i}")
+
+# 5th task. Recite the 26 letters of the Alphabet from A to Z.
+letter = chr(65)
+while ord(letter) <= 90:
+    print(letter)
+    letter = chr(ord(letter)+ 1)
+
+
