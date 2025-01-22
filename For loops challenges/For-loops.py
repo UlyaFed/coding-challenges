@@ -45,3 +45,16 @@ else:
         sum += i
         
 print(f"Iterative Sum for {num} is {sum}")
+
+# 7th task. To calculate a factorial of a number! Your program will ask for the user to enter a positive integer value and return its factorial value.
+num = int(input("Enter a positive integer: "))
+
+if num <= 0:
+    print("Please enter a positive integer")
+else:
+    factorial = 1
+    
+    for i in range(1, num + 1):
+        factorial *= i
+        
+print(f"The factorial of {num} is {factorial}")

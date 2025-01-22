@@ -21,3 +21,7 @@
 ### 6th task.
 
 - Ask for a positive integer value and calculate the iterative sum for this given number.
+
+### 7th task.
+
+- To calculate a factorial of a number! Your program will ask for the user to enter a positive integer value and return its factorial value.
