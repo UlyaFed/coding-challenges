@@ -20,4 +20,8 @@ while num >= 0:
     print(num)
     num = num - 1
 
-# 4th task.
+# 4th task. The program starts by asking for a number. It will then display the times table for this given number.
+num = int(input("Enter a number: "))
+
+for i in range(1,11):
+    print(f"{num} * {i} = {num * i}")
